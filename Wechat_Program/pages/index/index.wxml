@@ -1,0 +1,15 @@
+<view class='page'>
+<image style="width: 300px; height: 300px; margin:0px auto;" mode="scaleToFill" src="{{imageSrc}}"></image>
+
+<view class="flex-wrp" style="flex-direction:row;justify-content: center; font-size: 30px;">
+        <text class="blod">鸣锣影业欢迎您</text>
+        </view>
+        <view class="flex-wrp" style="height: 150px;flex-direction:column;justify-content: center;">
+            <open-data type="userAvatarUrl"></open-data> 
+    <open-data type="userNickName" lang="zh_CN"></open-data> 
+        </view>
+        <view class="flex-wrp" style="height: 150px;flex-direction:column;justify-content: center;">
+        <view style="height:35px;"><text>点击下方链接跳转到主页</text></view>
+<button class='wepay' bindtap='goIndex'>点击跳转</button>
+</view>
+</view>

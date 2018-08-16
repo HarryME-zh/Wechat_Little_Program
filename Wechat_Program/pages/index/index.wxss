@@ -1,0 +1,12 @@
+/* pages/index/index.wxss */
+.flex-wrp{
+    height: 100px;
+    display:flex;
+    background-color:#FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+.flex-item{
+    width: 100px;
+    height: 100px;
+}
